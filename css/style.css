@@ -1,0 +1,230 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+* {
+	padding: 0;
+	margin: 0;
+	vertical-align: baseline;
+	list-style: none;
+	border: 0;
+}
+
+header {
+	width: 100%;
+	border-top: 25px solid white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: white;
+  }
+  header h1 {
+	padding-top: 0;
+	padding-bottom: 5px;
+	border-bottom: none;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 50px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	
+  }
+  h2 {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: none;
+	color: rgba(0, 0, 0, 0.842);
+	font-size: 1.6em;
+	font-style: italic;
+	text-align: center;
+  }
+
+  .summary {
+
+	width: 100%;
+	height: 100px;
+	padding: 20px 0 5px 0;
+	margin-right: 30px;
+	background: white;
+	border-left: 30px solid white;
+
+  }
+  .summary p {
+	color: #000000;
+	font-style: italic;
+	width: 450px;
+  }
+ 
+
+.preamble{
+	padding: 40px;
+	border-left: 25px solid white;
+	border-right: 25px solid white;
+}
+
+
+
+
+html {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+	background-color: skyblue;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+footer {
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+h1{
+	font-size: 40;
+}
+
+/* specific divs */
+.page-wrapper {
+	
+}
+
+/* .main {
+	background-color: white;
+	opacity: 0.8;
+	padding: 50px;
+	display: block;
+} */
+
+.explanation, .benefits{
+	background-color: black;
+	opacity: 0.8;
+	padding: 40px;
+	display: block;
+	color: white;
+}
+
+.participation, .requirements, .preamble{
+	padding: 40px;
+	border-left: 25px solid white;
+	border-right: 25px solid white;
+}
+
+.sidebar .wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.design-selection li {
+	list-style-type: disc;
+}
+
+aside h3 {
+	display: block;
+	font-size: 20px;
+}
+
+.design-selection, .design-archives, .zen-resources{
+	padding: 0px;
+}
+
+
+
+/* Menu do rodapé */
+ .supporting footer {
+	border-top: 5px solid #edf6ff;
+	background: #00374f;
+	font-size: 22px;
+	height: 65px;
+	text-align: center;
+	width: 100%;
+  }
+  
+  /* mudando o estilo da letra */
+  .supporting footer a {
+	color: #edf6ff;
+	margin-right: 25px;
+	vertical-align: -1em;
+  }
+  
+  /* Diminuindo o tamanho da letra do conteúdo */
+  .supporting footer {
+    font-size: 18px;
+  }
+
+
+  aside {
+	border-top: 5px solid #edf6ff;
+	float: left;
+	margin-bottom: -5px;
+	width: 100%;
+  }
+
+
+  aside .wrapper {
+	margin: -5px auto 0;
+	max-width: 1040px;
+	padding: 40px 0 30px 0;
+	position: relative;
+	width: 100%;
+
+  }
+
+  /* Mudando o h3 do rodapé  */
+  aside .wrapper h3 {
+	color: #00374f;
+	font-size: 24px;
+	margin-top: 0;
+  }
+
+  /* Colocando cor no conteúdo*/ 
+  aside .wrapper a {
+	color: #edf6ff;
+  }
+
+  /* Mudando a cor do link */
+  aside .wrapper a.designer-name {
+	color: #00374f;
+  }
+
+
+  /* leve espaçamento entre as li */
+  aside .wrapper ul li {
+	margin-bottom: 12px;
+  }
+
+  /* Colocando a borda de separação dos conteúdos */
+  aside .wrapper .design-selection {
+	border-right: 2px solid #edf6ff;
+	margin-right: 40px;
+	width: 50%;
+  }
+
+  /* Renderizando o conteudo do rodapé, colocando um abaixo do outro */
+  aside .wrapper .design-selection .design-name {
+	display: block;
+  }
+  
+  /* Menu do rodapé */
+  .supporting footer {
+	background: #00374f;
+	font-size: 22px;
+	height: 65px;
+	text-align: center;
+	width: 100%;
+  } 
+
+
